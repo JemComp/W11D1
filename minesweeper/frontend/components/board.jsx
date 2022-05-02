@@ -5,7 +5,7 @@ import * as Minesweeper from '../../minesweeper.js';
 class Board extends React.Component {
     constructor(props) {
         super(props)
-        this.updateGame = this.props.updateGame.bind(this)
+        this.updateGame = this.props.updateGame
 
     }
 

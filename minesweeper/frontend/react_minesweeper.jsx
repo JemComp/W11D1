@@ -6,12 +6,17 @@ class Root extends React.Component {
 
     render() {
         return (
-            <Game/>
+            <Game id="game"/>
         )
     }
 
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    ReactDOM.render(<Root/>, document.getElementById("root"))
+    ReactDOM.render(<Root/>, document.getElementById("root"));
+
+    document.getElementById("button").addEventListener("click", () => {
+        ReactDOM.render(<Root/>, document.getElementById("root"));
+        console.log("Button pressed")
+    }) 
 })
