@@ -1,0 +1,48 @@
+
+
+h1 {
+    color: blue;
+    font-size: smaller;
+}
+
+#board-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.bombed {
+    margin: 0px;
+}
+
+.revealed {
+    margin: 0px;
+}
+
+.flagged {
+    margin: 0px;
+}
+
+.tile {
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* width: 200px; */
+    padding: 0px;
+    margin: 0px;;
+}
